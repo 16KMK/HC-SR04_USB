@@ -32,7 +32,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Src/../../Core/Hardware_Interface/HW_Interface_HCSR04.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HC-SR04/HC-SR04.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HD44780_LCD/HD44780_LCD.h \
- c:\users\kamal\onedrive\documents\embedded\ s.c\hc-sr04_usb\drivers\arm_drivers\delay_micros\dwt_stm32_delay.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HD44780_LCD/../../ARM_Drivers/Delay_Micros/dwt_stm32_delay.h \
  ../USB_DEVICE/App/usbd_cdc_if.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -74,7 +74,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Src/../../Core/Hardware_Interface/HW_Interface_HCSR04.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HC-SR04/HC-SR04.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HD44780_LCD/HD44780_LCD.h:
-c:\users\kamal\onedrive\documents\embedded\ s.c\hc-sr04_usb\drivers\arm_drivers\delay_micros\dwt_stm32_delay.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/../../Device_Drivers/HD44780_LCD/../../ARM_Drivers/Delay_Micros/dwt_stm32_delay.h:
 ../USB_DEVICE/App/usbd_cdc_if.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:

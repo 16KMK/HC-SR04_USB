@@ -107,24 +107,17 @@ int main(void) {
 	HAL_GPIO_Init(ECHO_PORT, &G);
 
 	float dist = 0;
-
-	char num[32];
+	char usb[32];
 	/* USER CODE END 2 */
-
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1) {
-		/* USER CODE END WHILE */
-
-		/* USER CODE BEGIN 3 */
 		HC_SR04_ReadDistance(&hc, &dist);
-		uint16_t display = sprintf(num, "Distance=%.2f cm\r\n", dist * 100);
-		CDC_Transmit_FS((uint8_t) dist, display);
-		HAL_Delay(500);
+		sprintf(usb, "Distance=%.2f cm\r\n", dist * 100);
+		CDC_Transmit_FS((uint8_t*) usb, strlen(usb));
+		HAL_Delay(10);
 	}
-	/* USER CODE END 3 */
 }
-
 /**
  * @brief System Clock Configuration
  * @retval None
